@@ -1,4 +1,5 @@
 ﻿using ExercisesOOP_S2W3.Question1;
+using ExercisesOOP_S2W3.Question2;
 using System;
 
 namespace ExercisesOOP_S2W3
@@ -20,6 +21,9 @@ namespace ExercisesOOP_S2W3
                     valid.validPay();
                     break;
                 case 2:
+                    SumInteger sum = new();
+                    sum.sumInteger();
+                    break;
                 case 3:
                     break;
             }
